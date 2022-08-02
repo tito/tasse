@@ -1,0 +1,6 @@
+.venv
+.cache
+__pycache__
+data/tasks/[a-z0-9A-Z\-]*
+data/logs/[a-z0-9A-Z\-]*
+data/jobs.sqlite

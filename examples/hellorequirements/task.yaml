@@ -1,0 +1,3 @@
+scheduler:
+  trigger: interval
+  minutes: 1

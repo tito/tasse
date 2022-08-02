@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tasse"
+version = "0.1.0"
+description = ""
+authors = ["Mathieu Virbel <mat@meltingrocks.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+APScheduler = "^3.9.1"
+Flask = "^2.1.3"
+loguru = "^0.6.0"
+SQLAlchemy = "^1.4.39"
+"ruamel.yaml" = "^0.17.21"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

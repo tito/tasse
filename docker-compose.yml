@@ -1,0 +1,13 @@
+version: '3.4'
+services:
+  tasse:
+    image: txprog/tasse:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    logging:
+      driver: json-file
+    ports:
+      - 127.0.0.1:6002:5000
+    volumes:
+      - ./jobs:/app/jobs
